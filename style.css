@@ -1,50 +1,78 @@
 * {
-    box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #F0C5B0;
-    color: #522008;
-    display:grid;
-    gap: 1.5rem;
-    grid-template-columns: 5fr 2fr;
-    grid-template-rows: 10vh 10fr 10vh;
-    grid-template-areas:
+  background-color: #f0c5b0;
+  color: #522008;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 5fr 2fr;
+  grid-template-rows: 20vh 10fr 10vh;
+  grid-template-areas:
     "header nav"
     "main main"
     "aside footer";
 }
 
 header {
-    grid-area: header;
+  grid-area: header;
 }
 
 nav {
-    grid-area: nav;
+  grid-area: nav;
+  display: none;
+}
+
+button {
+    display:flex;
+}
+
+@media (min-width: 800px) {
+  nav {
+    display: flex;
+  }
+  button {
+    display: none;
+  }
 }
 
 main {
-    grid-area: main;
+  grid-area: main;
 }
 
 aside {
-    grid-area: aside;
+  grid-area: aside;
 }
 
 footer {
-    grid-area: footer;
+  grid-area: footer;
 }
 
-h1 {
-    color: #351302
+h1,
+h2 {
+  color: #351302;
 }
 
-a {
+nav a {
   display: inline-block;
   text-decoration: none;
   padding: 0.5rem 0.5rem;
   margin: 1rem 0rem;
   border-radius: 2rem;
   cursor: pointer;
-  color: #522008;
+}
+
+footer a {
+  display: block;
+  width: 9rem;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: #005179;
+  color: #f0c5b0;
+  overflow: hidden;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
 }

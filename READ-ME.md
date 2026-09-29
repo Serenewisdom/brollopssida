@@ -18,6 +18,8 @@ Minst två exempel. För varje:
 - Vad bad jag om?
 - Vad fick jag?
 - Vad gjorde jag med det?
+
+- Frågade om hur en länkar till email, fick svaret href="mailto:mail@adress.com", använde till min footer
 ## Tekniska val (VG)
 Vilka beslut tog jag, och varför?
 Hur ska besökaren OSA:
