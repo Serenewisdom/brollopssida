@@ -1,17 +1,39 @@
-Examination: Gör en hemsida
+# [Projektets namn]
+## Om sidan
+Vad handlar sidan om, och vem är den till för? Två–tre meningar.
+En bröllopssida för mig och Hanna. Det ska gå att navigera sig mellan användbar information och lite mer kul kuriosa. Det ska även gå att OSA till bröllopet.
+## Skiss
+Länk eller hänvisning till skissfilen i repot.
+Skiljer sig den färdiga sidan från skissen? Vad ändrades och varför? (Om oss istället för Om paret? Notering: Promptarna tog slut)
 
-Krav i uppgiften:
-- Designa en fungerande hemsida med HTML och CSS
-- Använda JavaScript för interaktivitet mha DOM-manipulation och eventlyssnare
-- Planera och skissa hemsidan och reflektera över stegen på vägen tills den är färdig. Använd AI och reflektera över det.
+Färger:
+Bakgrund: F0C5B0
+Rutor: FEDAC2
+Rubriker: 351302
+Brödtext: 522008
+## Funktionalitet
+Vad kan besökaren göra på sidan? Vilken fil och vilka funktioner sköter det?
+## AI-användning
+Minst två exempel. För varje:
+- Vad bad jag om?
+- Vad fick jag?
+- Vad gjorde jag med det?
+## Tekniska val (VG)
+Vilka beslut tog jag, och varför?
+Hur ska besökaren OSA:
+Grid eller inte:
+## Bedömning av AI-innehåll (VG)
+Hur avgjorde jag om det AI gav mig var bra nog?
+Vad behöll jag, vad ändrade jag, och varför?
+
+
 
 Idé: Bröllopssida
 Syfte: En sida där det ska gå att få information och OSA till bröllopet 2027
 
-Skiss:
-Header header
-Nav nav
-Main aside?
+Skiss: Figma? Canvas? Claude?
+Header med titel + nav
+Main main
 Footer footer
 
 
@@ -26,8 +48,14 @@ En bild på oss behövs också till startsidan, flera till brudparssidan.
 
 
 Oklarheter: 
-- Hur ska de OSA?
-- Hur ska jag implementera JavaScript? Hamburgarmeny? Timer? Dark mode?
+- Hur ska de OSA? Lösning: Link till Google Form
+- Hur ska jag implementera JavaScript? Hamburgarmeny? Dark mode? Quiz?
 - Är det värt att använda Grid?
 
 Mobilvänlighet: Tänk på det från början!
+Hamburgarmeny på mobil, vanlig nav-meny på dator
+
+Notes to self: Använda camelCase vs kebab-case på rätt tillfällen
+
+Användning av AI:
+- Frågade om vilka möjligheter som finns för att skapa en OSA-möjlighet och kom fram till att Google Forms är lättare än att skicka data till en extern sida (eftersom jag inte har en backend)
