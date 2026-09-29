@@ -7,7 +7,7 @@ body {
     color: #522008;
     display:grid;
     gap: 1.5rem;
-    grid-template-columns: 5fr 30vw;
+    grid-template-columns: 5fr 2fr;
     grid-template-rows: 10vh 10fr 1fr;
     grid-template-areas:
     "header nav"
@@ -43,7 +43,8 @@ a {
   display: inline-block;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  margin-top: 0.5rem;
+  margin: 1rem 0rem;
   border-radius: 2rem;
   cursor: pointer;
+  color: #522008;
 }
