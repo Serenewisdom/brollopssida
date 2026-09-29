@@ -8,7 +8,7 @@ body {
     display:grid;
     gap: 1.5rem;
     grid-template-columns: 5fr 2fr;
-    grid-template-rows: 10vh 10fr 1fr;
+    grid-template-rows: 10vh 10fr 10vh;
     grid-template-areas:
     "header nav"
     "main main"
@@ -42,7 +42,7 @@ h1 {
 a {
   display: inline-block;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   margin: 1rem 0rem;
   border-radius: 2rem;
   cursor: pointer;
