@@ -21,18 +21,37 @@ header {
 
 nav {
   grid-area: nav;
+}
+
+nav a {
   display: none;
 }
 
-button {
-    display:flex;
+nav a #oppen {
+    display: flex;
+    flex-direction: column;
+}
+
+nav button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
 }
 
 @media (min-width: 800px) {
-  nav {
-    display: flex;
+  nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    margin: 1rem 0rem;
+    border-radius: 2rem;
+    cursor: pointer;
   }
-  button {
+  nav button {
     display: none;
   }
 }
@@ -52,15 +71,6 @@ footer {
 h1,
 h2 {
   color: #351302;
-}
-
-nav a {
-  display: inline-block;
-  text-decoration: none;
-  padding: 0.5rem 0.5rem;
-  margin: 1rem 0rem;
-  border-radius: 2rem;
-  cursor: pointer;
 }
 
 footer a {
