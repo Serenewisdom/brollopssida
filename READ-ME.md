@@ -24,13 +24,16 @@ Minst två exempel. För varje:
 - Frågade om hur jag ska få naven för små skärmar att synas över bilden, fick svaret position:absolute, skrev in i min css för nav.open. Dock gjorde det att alla länkar hamnade på samma ställe så fick pilla vidare. Satte en div runt länkarna och såg till att det bara var de som var absolute istället för hela naven.
 ## Tekniska val (VG)
 Vilka beslut tog jag, och varför?
-Hur ska besökaren OSA:
-Grid eller inte:
+Hur ska besökaren OSA: Google Forms, eftersom jag inte kan backend så kan inte lagra data utan att behöva en extern sida
+Grid eller inte: Ja, för att underlätta strukturen av skelettet
+JavaScript: Hamburgare
 ## Bedömning av AI-innehåll (VG)
 Hur avgjorde jag om det AI gav mig var bra nog?
 Vad behöll jag, vad ändrade jag, och varför?
 
 Jag försökte använda AI som hjälp när jag inte fick min hamburgarmeny att fungera (pga typos) och den började föreslå syntax som jag inte har lärt mig, så då lät jag den inte pilla i koden utan bara löste mina typos manuellt.
+
+Kollade om det gick att göra en easter egg som spelar en truddelutt vid klick på "Juna" på startsidan, koden verkade inte särskilt komplicerad så beslöt mig för att testa!
 
 
 

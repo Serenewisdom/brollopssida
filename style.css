@@ -95,3 +95,7 @@ footer a {
   margin-top: 0.5rem;
   border-radius: 1rem;
 }
+
+.clickable {
+    cursor: pointer;
+}
