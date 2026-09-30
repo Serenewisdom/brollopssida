@@ -15,6 +15,19 @@ body {
     "aside footer";
 }
 
+body#om-oss {
+background-color: #f0c5b0;
+  color: #522008;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 3fr 7fr;
+  grid-template-rows: 20vh 10fr 10vh;
+  grid-template-areas:
+    "header nav"
+    "main aside"
+    "footer footer";
+}
+
 header {
   grid-area: header;
 }
