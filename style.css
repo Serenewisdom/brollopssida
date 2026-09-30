@@ -27,9 +27,14 @@ nav a {
   display: none;
 }
 
-nav a #oppen {
+nav.open a{
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    background-color: #005179;
+    color: #f0c5b0;
+
 }
 
 nav button {
