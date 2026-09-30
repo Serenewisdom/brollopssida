@@ -47,6 +47,10 @@ nav button {
   border-radius: 0.5rem;
 }
 
+.links {
+    position:absolute;
+}
+
 @media (min-width: 800px) {
   nav a {
     display: inline-block;

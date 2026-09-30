@@ -21,7 +21,7 @@ Minst två exempel. För varje:
 
 - Frågade om hur en länkar till email, fick svaret href="mailto:mail@adress.com", använde till min footer
 
-- Frågade om hur jag ska få naven för små skärmar att synas över bilden, fick svaret position:absolute, skrev in i min css för nav.open. Dock gjorde det att alla länkar hamnade på samma ställe så fick pilla vidare.
+- Frågade om hur jag ska få naven för små skärmar att synas över bilden, fick svaret position:absolute, skrev in i min css för nav.open. Dock gjorde det att alla länkar hamnade på samma ställe så fick pilla vidare. Satte en div runt länkarna och såg till att det bara var de som var absolute istället för hela naven.
 ## Tekniska val (VG)
 Vilka beslut tog jag, och varför?
 Hur ska besökaren OSA:
