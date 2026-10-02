@@ -157,6 +157,10 @@ footer a {
   border-radius: 1rem;
 }
 
+p {
+    padding: 0.5rem;
+}
+
 img {
   display: block;
   border-radius: 1rem;
