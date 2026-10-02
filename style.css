@@ -31,9 +31,10 @@ body {
 }
 
 body#om-oss {
-  background-color: #fedac2;
+  background-color: #f0c5b0;
   color: #522008;
   display: grid;
+  min-height: 100vh;
   gap: 1.5rem;
   grid-template-columns: 3fr 7fr;
   grid-template-rows: auto 1fr auto;
@@ -41,6 +42,8 @@ body#om-oss {
     "header nav"
     "main aside"
     "footer footer";
+  margin: 0;
+  padding: 2%;
 }
 
 header {
@@ -60,6 +63,7 @@ nav {
   background-color: #fedac2;
   border-radius: 1rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -81,14 +85,20 @@ nav button {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
   width: 2.5rem;
   height: 2.5rem;
   font-size: 2rem;
   border-radius: 0.5rem;
 }
 
+.active {
+  background-color: #f5f5f5;
+  font-weight: 500;
+}
+
 .links {
-  position: absolute;
+  z-index: 100;
 }
 
 @media (min-width: 800px) {
@@ -148,7 +158,9 @@ footer a {
 }
 
 img {
+  display: block;
   border-radius: 1rem;
+  height: auto;
 }
 
 .mer-info {
