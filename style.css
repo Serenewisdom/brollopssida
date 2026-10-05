@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 /* Bättre typsnitt när Hanna har bestämt sig */
@@ -10,7 +11,7 @@ body {
   display: grid;
   min-height: 100vh;
   gap: 1.5rem;
-  grid-template-columns: 5fr 2fr;
+  grid-template-columns: 6fr 4fr;
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
     "header nav"
@@ -78,6 +79,11 @@ nav button {
 
 /* Centrera strecken, placera menyn på rätt plats */
 
+#OSA {
+  background-color: #005179;
+  color: #e0e312;
+}
+
 .active {
   background-color: #f5f5f5;
   font-weight: 500;
@@ -130,7 +136,7 @@ footer {
 }
 
 footer a {
-  width: 9rem;
+  width: auto;
   text-align: center;
   text-decoration: none;
   padding: 0.5rem;
