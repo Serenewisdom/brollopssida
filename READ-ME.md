@@ -23,6 +23,8 @@ Minst två exempel. För varje:
 
 - Frågade om hur jag ska få naven för små skärmar att synas över bilden, fick svaret position:absolute, skrev in i min css för nav.open. Dock gjorde det att alla länkar hamnade på samma ställe så fick pilla vidare. Satte en div runt länkarna och såg till att det bara var de som var absolute istället för hela naven.
 
+- Bad AIn att centrera hamburgarmenyn i naven och behålla att positionen stannar, samt att menyn syns under och överlappar mainen. Den la till "top", "left" samt "transform". Förstår inte riktigt vad transform gör men låter den vara kvar då jag inte lyckades lösa det på egen hand.
+
 - Bad AIn att göra en knapp med ett hjärta som gjorde en liten animation när en tryckte på knappen, men blev inte som jag tänkt och förstod inte koden (framförallt pga @keyframes), så valde att ta bort det.
 
 ## Tekniska val (VG)

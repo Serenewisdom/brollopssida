@@ -37,6 +37,8 @@ h2 {
 
 nav {
   grid-area: nav;
+  position: relative;
+  z-index: 1;
   background-color: #fedac2;
   border-radius: 1rem;
   display: flex;
@@ -63,6 +65,9 @@ nav button {
   justify-content: center;
   align-items: center;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border: none;
   width: 2.5rem;
   height: 2.5rem;
@@ -81,6 +86,13 @@ nav button {
 
 .links {
   z-index: 100;
+}
+
+nav.open .links {
+  position: absolute;
+  top: calc(50% + 1.25rem);
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* Centrera länkarna */
