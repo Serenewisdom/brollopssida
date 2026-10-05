@@ -39,7 +39,6 @@ nav {
   grid-area: nav;
   position: relative;
   z-index: 1;
-  background-color: #fedac2;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -86,6 +85,8 @@ nav button {
 
 .links {
   z-index: 100;
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 
 nav.open .links {
@@ -139,7 +140,7 @@ footer a {
   border-radius: 1rem;
 }
 
-p {
+aside p {
   padding: 0.5rem;
 }
 
@@ -152,7 +153,6 @@ img {
 .mer-info {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
   padding: 1rem;
 }
 
@@ -175,6 +175,10 @@ img {
       "footer footer";
     margin: 0;
     padding: 2%;
+  }
+
+  nav {
+    background-color: #fedac2;
   }
 
   nav a {
