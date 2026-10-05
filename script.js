@@ -4,6 +4,7 @@ const jingle = document.querySelector("#jingle");
 const audio = new Audio('zelda.mp3');
 const yahaha = document.querySelector("#yahaha");
 const korok = new Audio('yahaha.mp3');
+const heartButton = document.querySelector(".heart-button");
 
 //Funktion för att toggla hamburgarmenyn i phone-view
 function openMenu(){
@@ -11,6 +12,8 @@ function openMenu(){
 }
 
 button.addEventListener("click", openMenu);
+
+/* Fixa så att menyn är stängd när skärmen förstoras, OBS OVIKTIGT */
 
 
 //Easter-egg: Jingle när en trycker på Juna
