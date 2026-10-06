@@ -29,47 +29,18 @@ Minst två exempel. För varje:
 
 ## Tekniska val (VG)
 Vilka beslut tog jag, och varför?
+
 Hur ska besökaren OSA: Google Forms, eftersom jag inte kan backend så kan inte lagra data utan att behöva en extern sida
 Grid eller inte: Ja, för att underlätta strukturen av skelettet
-JavaScript: Hamburgare
+
+JavaScript: Hamburgarmeny för telefon samt Easter egg när en trycker på våra namn på startsidan. Funderade på att implementera Dark mode men kände inte att det var nödvändigt.
+
+Phone first: Eftersom inbjudan kommer ske via kort och inscannad QR-kod kommer i stort sett alla som använder sidan att se den i phone-view, därför valde jag att designa den efter mobile first.
+
 ## Bedömning av AI-innehåll (VG)
 Hur avgjorde jag om det AI gav mig var bra nog?
 Vad behöll jag, vad ändrade jag, och varför?
 
 Jag försökte använda AI som hjälp när jag inte fick min hamburgarmeny att fungera (pga typos) och den började föreslå syntax som jag inte har lärt mig, så då lät jag den inte pilla i koden utan bara löste mina typos manuellt.
 
-Kollade om det gick att göra en easter egg som spelar en truddelutt vid klick på "Juna" på startsidan, koden verkade inte särskilt komplicerad så beslöt mig för att testa!
-
-
-
-Idé: Bröllopssida
-Syfte: En sida där det ska gå att få information och OSA till bröllopet 2027
-
-Skiss: Figma? Canvas? Claude?
-Header med titel + nav
-Main main
-Footer footer
-
-
-Flikar: Startsida med kort info, info-flik med mer info, brudparssida, brudföljesida
-
-Behöver välja ut i förväg vilka färger som ska vara med. 3-5st.
-Bakgrund: F0C5B0
-Rutor: FEDAC2
-Rubriker: 351302
-Brödtext: 522008
-En bild på oss behövs också till startsidan, flera till brudparssidan.
-
-
-Oklarheter: 
-- Hur ska de OSA? Lösning: Link till Google Form
-- Hur ska jag implementera JavaScript? Hamburgarmeny? Dark mode? Quiz?
-- Är det värt att använda Grid?
-
-Mobilvänlighet: Tänk på det från början!
-Hamburgarmeny på mobil, vanlig nav-meny på dator
-
-Notes to self: Använda camelCase vs kebab-case på rätt tillfällen
-
-Användning av AI:
-- Frågade om vilka möjligheter som finns för att skapa en OSA-möjlighet och kom fram till att Google Forms är lättare än att skicka data till en extern sida (eftersom jag inte har en backend)
+Kollade om det gick att göra en easter egg som spelar en truddelutt vid klick på namnen på startsidan, koden verkade inte särskilt komplicerad så beslöt mig för att testa!
