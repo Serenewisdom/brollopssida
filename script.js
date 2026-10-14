@@ -13,9 +13,6 @@ function openMenu(){
 
 button.addEventListener("click", openMenu);
 
-/* Fixa så att menyn är stängd när skärmen förstoras, OBS OVIKTIGT */
-
-
 //Easter-egg: Jingle när en trycker på Juna
 function playJingle() {
     audio.currentTime = 0;

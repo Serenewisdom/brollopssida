@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Bättre typsnitt när Hanna har bestämt sig */
@@ -112,7 +112,7 @@ main {
 }
 
 main p {
-    padding: 0.5rem;
+  padding: 0.5rem;
 }
 
 aside {
