@@ -1,10 +1,11 @@
 const menu = document.querySelector("#menu");
 const button = menu.querySelector("button");
+
 const jingle = document.querySelector("#jingle");
 const audio = new Audio('zelda.mp3');
+
 const yahaha = document.querySelector("#yahaha");
 const korok = new Audio('yahaha.mp3');
-const heartButton = document.querySelector(".heart-button");
 
 //Funktion för att toggla hamburgarmenyn i phone-view
 function openMenu(){
